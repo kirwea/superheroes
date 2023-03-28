@@ -1,7 +1,7 @@
 class HerosController < ApplicationController
     def index
-        heroes = Hero.all
-        render json: heroes,status: :ok
+        heros = Hero.all
+        render json: heros
     end
 
     def show
